@@ -6,9 +6,9 @@ from streamlit_pandas_profiling import st_profile_report
 
 # Web App Title
 st.markdown('''
-## **The EDA App**
+## **The Roger App**
 
-This is the **EDA App** created in Streamlit using the **pandas-profiling** library.
+This is the **Roger App** created in Streamlit using the **pandas-profiling** library.
 
 ---
 ''')
