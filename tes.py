@@ -6,16 +6,16 @@ from streamlit_pandas_profiling import st_profile_report
 
 # Web App Title
 st.markdown('''
-## **The EDA App**
+## **Palem Star Aluminium**
 
-This is the **EDA App** created in Streamlit using the **pandas-profiling** library.
+This is the **Palem Star Aluminium** We Sell Various of **Furniture** Here.
 
 ---
 ''')
 
 # Upload CSV data
-with st.sidebar.header('Upload your CSV data'):
-    uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
+with st.sidebar.header('Palem Star Aluminium'):
+    uploaded_file = st.sidebar.file_uploader("Tangga dan Jemuran", type=["csv"])
     st.sidebar.markdown("""
 [Example CSV input file](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 """)
